@@ -99,8 +99,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Serve media files during development
 STATIC_URL = 'static/'
-STATICFILES_DIRS =[os.path.join(BASE_DIR,'static')]
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
+STATICFILES_DIRS =[os.path.join(BASE_DIR,'school/static')]
+
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

@@ -99,7 +99,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Serve media files during development
 STATIC_URL = 'static/'
-STATICFILES_DIRS =[os.path.join(BASE_DIR,'school/static')]
+STATICFILES_DIRS =[os.path.join(BASE_DIR,'staticfiles')]
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','static')
 
 # Default primary key field type

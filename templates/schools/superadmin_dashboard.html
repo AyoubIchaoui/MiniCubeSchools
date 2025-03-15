@@ -31,7 +31,7 @@
                     <td>{{ school.name }}</td>
                     <td>{{ school.tenant.subdomain }}</td>
                     <td>{{ school.created_at|date:"M d, Y" }}</td>
-                    <td><a href="http://{{ school.tenant.subdomain }}.localhost:8000">Visit</a></td>
+                    <td><a href="http://{{ school.tenant.subdomain }}.mini-cube-schools.vercel.app">Visit</a></td>
                     <td><a href="{% url 'manage_school_templates' school.pk %}">Manage Templates</a></td>
                     
                 </tr>

@@ -12,7 +12,7 @@ SECRET_KEY = 'django-insecure-z=+0u8&p10a(2nt4$(xqbo-wq+@r+sc+&k-v8q&#a*7=8xk8h0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-MAIN_DOMAIN = 'localhost:8000'
+MAIN_DOMAIN = 'mini-cube-schools'
 
 ALLOWED_HOSTS = ['.vercel.app','127.0.0.1','now.sh']  # In production, set this to specific domains
 
